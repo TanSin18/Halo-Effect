@@ -127,3 +127,37 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Old backup files
+*.old
+
+# Data files (large binary files)
+data/raw/*.pkl
+data/raw/*.csv
+data/raw/*.xlsx
+data/processed/*
+output/clusters/*
+output/params/*
+
+# Keep directory structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!output/clusters/.gitkeep
+!output/params/.gitkeep
+
+# Configuration
+config/gcp_key.json
+
+# Keep example files
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
