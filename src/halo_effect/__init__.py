@@ -8,7 +8,7 @@ Modules for analyzing retail store closure halo effects using:
 """
 
 __version__ = "1.0.0"
-__author__ = "SK0759"
+__author__ = "Tanmay Sinnarkar"
 
 from . import baby_trade_area
 from . import bbby_trade_area

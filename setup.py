@@ -20,7 +20,7 @@ else:
 setup(
     name="halo-effect-analysis",
     version="1.0.0",
-    author="SK0759",
+    author="Tanmay Sinnarkar",
     author_email="",
     description="Retail store closure halo effect analysis using machine learning",
     long_description=long_description,
